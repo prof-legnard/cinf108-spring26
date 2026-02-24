@@ -1,8 +1,16 @@
-# Lab 5
+# Lab 2
 
 For this lab assignment we are going to make some basic art in python  using the `turtle` library. You can install `turtle` with:
 ```bash
 pip install turtle
+```
+You may also need to install the `tkinter` package if it is not installed on your machine natively. You can do this directly with a python `pip` command:
+
+```bash
+pip install python3-tk
+# or 
+python3 -m pip install -U python3-tk
+
 ```
 
 The objective of this assignment will be to make **two designs or graphics** using turtle and print them on a canvas created by the turtle library when called upon. Try creating a basic shape first:
