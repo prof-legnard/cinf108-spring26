@@ -2,7 +2,7 @@ import turtle
   
 # creating turtle pen 
 t = turtle.Turtle() 
-  
+t.speed(2)  
   
 # set the fillcolor 
 t.fillcolor('red') 

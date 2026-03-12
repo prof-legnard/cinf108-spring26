@@ -4,9 +4,9 @@ Write a program that let's the user running it play a game where they have to gu
 The player gets 5 guesses to guess the number, and potentially 6 if they guess close to the chosen number.
 
 Rules:
-- Name your `.py` file according to the usual expected convention: `lastName_firstName_lab2.py`
+- Name your `.py` file according to the usual expected convention: `lastName_firstName_lab3.py`
 - The player should be able to run the game within the terminal or command prompt with either:
-       `python LastName_FirstName_lab2.py`  or `python3 LastName_FirstName_lab2.py`
+       `python LastName_FirstName_lab3.py`  or `python3 LastName_FirstName_lab3.py`
 - when the player is within 3 of the correct number, their max guess count increases by 1 
   (ex. correct number is 20, player guesses a number between 17-23, but doesn't guess 20, they get an extra guess)
 - when the players gets an extra guess, they don't get any more extra guesses for the rest of the game.
@@ -39,8 +39,8 @@ import random
 
 # using global variables
 MIN = 1
-MAX = 26
-win_num = random.choice(range(MIN, MAX))
+MAX = 25
+win_num = random.choice(range(MIN, MAX+1))
 
 guess_count = 1
 max_guesses = 5
